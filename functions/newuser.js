@@ -1,6 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 exports.handler = async (event, context) => {
+    console.log(event.headers);
     const headers = {
         "Access-Control-Allow-Origin" : "*",
         "Access-Control-Allow-Headers": "Content-Type"
