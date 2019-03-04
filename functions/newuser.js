@@ -4,7 +4,7 @@ exports.handler = async (event, context) => {
     const token = process.env.TELEGRAM_TOKEN;
     const bot = new TelegramBot(token);
     const chatId = process.env.CHAT_ID;
-    bot.sendMessage(chatId, "New user! YAY! 🎉🤑💸")
+    return bot.sendMessage(chatId, "New user! YAY! 🎉🤑💸")
         .then(() => ({
             statusCode: 200,
             body: `Message has been sent to Telegram 🤗`
