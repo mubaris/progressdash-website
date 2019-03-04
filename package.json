@@ -49,5 +49,9 @@
     "uglify-es": "^3.3.10"
   },
   "homepage": "https://bitbucket.org/pasqualevitiello/ruby#readme",
-  "main": ".eslintrc.js"
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "querystring": "^0.2.0"
+  }
 }
