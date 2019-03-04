@@ -1,7 +1,11 @@
 const TelegramBot = require('node-telegram-bot-api');
 
 exports.handler = async (event, context) => {
-    console.log(event.headers);
+    if (event.headers['origin'] === 'chrome-extension://hmejblemllciaklhffpinjgkbngcoopb') {
+        console.log('Yay!');
+    } else {
+        console.log('Nay');
+    }
     const headers = {
         "Access-Control-Allow-Origin" : "*",
         "Access-Control-Allow-Headers": "Content-Type"
