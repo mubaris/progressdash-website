@@ -1,107 +1,147 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Progress Dashboard</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Playfair+Display:700" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Progress Dashboard - New Tab Extension to Stay Productive and to Keep Track of Time</title>
+	<meta name="description" content="Progress Dashboard replaces your boring new tab with powerful time progress and motivation!">
+	<link rel="apple-touch-icon" href="dist/images/logo.png">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta property="og:title" content="Progress Dashboard - New Tab Extension to Stay Productive and to Keep Track of Time" />
+	<meta property="og:type" content="product" />
+	<meta property="og:url" content="https://progressdash.xyz/" />
+	<meta property="og:image" content="dist/images/social.jpg" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@Mubaris_NK">
+	<meta name="twitter:title" content="Progress Dashboard - New Tab Extension to Stay Productive and to Keep Track of Time">
+	<meta name="twitter:description" content="Progress Dashboard replaces your boring new tab with powerful time progress and motivation!">
+	<meta name="twitter:image" content="dist/images/social.jpg">
+	<meta name="twitter:image:alt" content="Progress Dashboard Screenshot">
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Playfair+Display:700" rel="stylesheet">
 	<link rel="stylesheet" href="dist/css/style.css">
-	<link rel="icon" href="dist/images/icon.ico" type="image/x-icon"/>
-	<link rel="shortcut icon" href="dist/images/icon.ico" type="image/x-icon"/>
+	<link rel="icon" href="dist/images/icon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="dist/images/icon.ico" type="image/x-icon" />
 	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+	 crossorigin="anonymous"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-93985002-6"></script>
 	<script>
-		(function(d, h, m){
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-93985002-6');
+
+	</script>
+
+	<script>
+		(function (d, h, m) {
 			var js, fjs = d.getElementsByTagName(h)[0];
-			if (d.getElementById(m)){return;}
-			js = d.createElement(h); js.id = m;
-			js.onload = function(){
+			if (d.getElementById(m)) {
+				return;
+			}
+			js = d.createElement(h);
+			js.id = m;
+			js.onload = function () {
 				window.makerWidgetComInit({
-				position: "right",          
-				widget: "vqnz22vhebzvd5rs-uy0br2wawsxzd1uc-9onqehamdritpg2m"                
-			})};
+					position: "right",
+					widget: "vqnz22vhebzvd5rs-uy0br2wawsxzd1uc-9onqehamdritpg2m"
+				})
+			};
 			js.src = "https://makerwidget.com/js/embed.js";
 			fjs.parentNode.insertBefore(js, fjs)
 		}(document, "script", "dhm"))
+
 	</script>
 </head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header text-light">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-								<img class="header-logo-image" src="dist/images/test_logo.png" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
 
-        <main>
-            <section class="hero text-center text-light">
-                <div class="container-sm">
-                    <div class="hero-inner">
+<body class="is-boxed has-animations">
+	<div class="body-wrap boxed-container">
+		<header class="site-header text-light">
+			<div class="container">
+				<div class="site-header-inner">
+					<div class="brand header-brand">
+						<h1 class="m-0">
+							<a href="#">
+								<img class="header-logo-image" src="dist/images/test_logo.png" alt="Logo">
+							</a>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="hero text-center text-light">
+				<div class="container-sm">
+					<div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Introducing Progress Dashboard</h1>
-	                        <p class="hero-paragraph">Chrome new tab extension to stay productive and keep track of time</p>
-	                        <div class="hero-cta">
-								<a class="button button-primary button-wide-mobile" href="https://chrome.google.com/webstore/detail/eternity/hmejblemllciaklhffpinjgkbngcoopb" rel="noopener noreferrer" target="_blank"><i class="fab fa-chrome"></i>&nbsp;Get it on Chrome Store</a>
+							<h1 class="hero-title mt-0">Introducing Progress Dashboard</h1>
+							<p class="hero-paragraph">Chrome new tab extension to stay productive and keep track of time</p>
+							<div class="hero-cta">
+								<a class="button button-primary button-wide-mobile" href="https://chrome.google.com/webstore/detail/eternity/hmejblemllciaklhffpinjgkbngcoopb"
+								 rel="noopener noreferrer" target="_blank"><i class="fab fa-chrome"></i>&nbsp;Get it on Chrome Store</a>
 							</div>
 						</div>
-                    </div>
-                </div>
-            </section>
+					</div>
+				</div>
+			</section>
 
-            <section class="features section">
-                <div class="container">
+			<section class="features section">
+				<div class="container">
 					<div class="features-inner section-inner has-bottom-divider">
 						<div class="features-header text-center">
 							<div class="container-sm">
-								<h2 class="section-title mt-0 is-revealing">Progress Dashboard replaces your boring new tab with powerful time progress and motivation!</h2>
+								<h2 class="section-title mt-0 is-revealing">Progress Dashboard replaces your boring new tab with powerful time
+									progress and motivation!</h2>
 								<img class="features-illustration is-revealing" src="dist/images/1.jpg" alt="Features illustration" style="border-radius:5px;">
 							</div>
-                        </div>
-                        <div class="features-wrap">
-                            <div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon mb-16">
-										<img src="dist/images/feature-01.svg" alt="Feature 01">
-                                    </div>
-									<div class="feature-content">
-                                    	<h4 class="feature-title mt-0 mb-8">Time Progress</h4>
-                                    	<p class="text-sm mb-0">Progress Dashboard comes with Year, Month, Week, Day and Hour Progress.</p>
-									</div>
-								</div>
-                            </div>
-							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon mb-16">
-										<img src="dist/images/feature-02.svg" alt="Feature 02">
-                                    </div>
-									<div class="feature-content">
-                                    	<h4 class="feature-title mt-0 mb-8">Customizable</h4>
-                                    	<p class="text-sm mb-0">Progress Dashboard lets you create your own progress bars to stay productive. Highly useful for fixed time tasks.</p>
-									</div>
-								</div>
-                            </div>
 						</div>
 						<div class="features-wrap">
 							<div class="feature text-center is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon mb-16">
-										<img src="dist/images/feature-03.svg" alt="Feature 03">
-                                    </div>
+								<div class="feature-inner">
+									<div class="feature-icon mb-16">
+										<img src="dist/images/feature-01.svg" alt="Feature 01">
+									</div>
 									<div class="feature-content">
-                                    	<h4 class="feature-title mt-0 mb-8">Beautiful Backgrounds</h4>
-                                    	<p class="text-sm mb-0">Modify backgrounds to please your aesthetics. You can change your backgrounds to images, gradients and Trianglify.</p>
+										<h4 class="feature-title mt-0 mb-8">Time Progress</h4>
+										<p class="text-sm mb-0">Progress Dashboard comes with Year, Month, Week, Day and Hour Progress.</p>
 									</div>
 								</div>
-                            </div>
+							</div>
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon mb-16">
+										<img src="dist/images/feature-02.svg" alt="Feature 02">
+									</div>
+									<div class="feature-content">
+										<h4 class="feature-title mt-0 mb-8">Customizable</h4>
+										<p class="text-sm mb-0">Progress Dashboard lets you create your own progress bars to stay productive. Highly
+											useful for fixed time tasks.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="features-wrap">
+							<div class="feature text-center is-revealing">
+								<div class="feature-inner">
+									<div class="feature-icon mb-16">
+										<img src="dist/images/feature-03.svg" alt="Feature 03">
+									</div>
+									<div class="feature-content">
+										<h4 class="feature-title mt-0 mb-8">Beautiful Backgrounds</h4>
+										<p class="text-sm mb-0">Modify backgrounds to please your aesthetics. You can change your backgrounds to
+											images, gradients and Trianglify.</p>
+									</div>
+								</div>
+							</div>
 							<div class="feature text-center is-revealing">
 								<div class="feature-inner">
 									<div class="feature-icon mb-16">
@@ -113,19 +153,19 @@
 									</div>
 								</div>
 							</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+						</div>
+					</div>
+				</div>
+			</section>
 
 			<section class="features-extended section">
-                <div class="features-extended-inner section-inner">
-                    <div class="features-extended-header text-center">
-                        <div class="container-sm">
-                            <h2 class="section-title mt-0">What makes Progress Dashboard great</h2>
-                            <p class="section-paragraph">Catch the features of Progress Dashboard in detail.</p>
-                        </div>
-                    </div>
+				<div class="features-extended-inner section-inner">
+					<div class="features-extended-header text-center">
+						<div class="container-sm">
+							<h2 class="section-title mt-0">What makes Progress Dashboard great</h2>
+							<p class="section-paragraph">Catch the features of Progress Dashboard in detail.</p>
+						</div>
+					</div>
 					<div class="features-extended-wrap">
 						<div class="container">
 							<div class="feature-extended">
@@ -134,7 +174,8 @@
 								</div>
 								<div class="feature-extended-body is-revealing">
 									<h3 class="mt-0">Progress Bars everywhere</h3>
-									<p class="mb-0">Progress Dashboard comes with all kinds of progress bars. Along with predefined Year, Month, and Day Progress, you can build your own progress bars.</p>
+									<p class="mb-0">Progress Dashboard comes with all kinds of progress bars. Along with predefined Year, Month,
+										and Day Progress, you can build your own progress bars.</p>
 								</div>
 							</div>
 							<div class="feature-extended">
@@ -157,13 +198,13 @@
 							</div>
 						</div>
 					</div>
-                </div>
-            </section>
+				</div>
+			</section>
 
-            <section class="pricing section text-light">
-                <div class="container">
-                    <div class="pricing-inner section-inner">
-                        <h2 class="section-title mt-0 text-center">Super simple pricing</h2>
+			<section class="pricing section text-light">
+				<div class="container">
+					<div class="pricing-inner section-inner">
+						<h2 class="section-title mt-0 text-center">Super simple pricing</h2>
 						<div class="pricing-tables-wrap">
 							<div class="pricing-table is-revealing">
 								<div class="pricing-table-inner">
@@ -184,19 +225,20 @@
 										</ul>
 									</div>
 									<div class="pricing-table-cta">
-										<a class="button button-primary button-block" href="https://chrome.google.com/webstore/detail/eternity/hmejblemllciaklhffpinjgkbngcoopb" rel="noopener noreferrer" target="_blank"><i class="fab fa-chrome"></i>&nbsp;Get it on Chrome Store</a>
+										<a class="button button-primary button-block" href="https://chrome.google.com/webstore/detail/eternity/hmejblemllciaklhffpinjgkbngcoopb"
+										 rel="noopener noreferrer" target="_blank"><i class="fab fa-chrome"></i>&nbsp;Get it on Chrome Store</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-                </div>
-            </section>
+				</div>
+			</section>
 
 			<section class="testimonials section">
-                <div class="container">
-                    <div class="testimonials-inner section-inner">
-                        <h2 class="section-title mt-0 text-center">Loved by users worldwide</h2>
+				<div class="container">
+					<div class="testimonials-inner section-inner">
+						<h2 class="section-title mt-0 text-center">Loved by users worldwide</h2>
 						<div class="testimonials-wrap">
 							<div class="testimonial is-revealing">
 								<div class="testimonial-inner">
@@ -205,7 +247,8 @@
 											<img src="dist/images/5-stars.svg" alt="Rating">
 										</div>
 										<div class="testimonial-body">
-											<p class="text-sm m-0">I've been using Progress Dashboard for a few days now and absolutely love it. It's incredible how much a "Day Progress" bar can motivate you.</p>
+											<p class="text-sm m-0">I've been using Progress Dashboard for a few days now and absolutely love it. It's
+												incredible how much a "Day Progress" bar can motivate you.</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
@@ -223,7 +266,8 @@
 											<img src="dist/images/5-stars.svg" alt="Rating">
 										</div>
 										<div class="testimonial-body">
-											<p class="text-sm m-0">Fast. Neat and Motivating. Each time I open a new tab, it reminds me how fast the time is moving! Definitely motivates me to be more productive!</p>
+											<p class="text-sm m-0">Fast. Neat and Motivating. Each time I open a new tab, it reminds me how fast the
+												time is moving! Definitely motivates me to be more productive!</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
@@ -241,7 +285,8 @@
 											<img src="dist/images/5-stars.svg" alt="Rating">
 										</div>
 										<div class="testimonial-body">
-											<p class="text-sm m-0">This is absolutely terrifying...and brilliant! Helps me become aware of "time-wasting"</p>
+											<p class="text-sm m-0">This is absolutely terrifying...and brilliant! Helps me become aware of
+												"time-wasting"</p>
 										</div>
 									</div>
 									<div class="testimonial-footer">
@@ -253,25 +298,26 @@
 								</div>
 							</div>
 						</div>
-                    </div>
-                </div>
-            </section>
+					</div>
+				</div>
+			</section>
 
 			<section class="cta section text-light">
 				<div class="container">
 					<div class="cta-inner section-inner is-revealing">
 						<h3 class="section-title mt-0">Let's install it and stay producive!</h3>
 						<div class="cta-cta">
-							<a class="button button-wide-mobile" href="https://chrome.google.com/webstore/detail/eternity/hmejblemllciaklhffpinjgkbngcoopb" rel="noopener noreferrer" target="_blank"><i class="fab fa-chrome"></i>&nbsp;Get it on Chrome Store</a>
+							<a class="button button-wide-mobile" href="https://chrome.google.com/webstore/detail/eternity/hmejblemllciaklhffpinjgkbngcoopb"
+							 rel="noopener noreferrer" target="_blank"><i class="fab fa-chrome"></i>&nbsp;Get it on Chrome Store</a>
 						</div>
 					</div>
 				</div>
 			</section>
-        </main>
+		</main>
 
-        <footer class="site-footer">
-            <div class="container">
-                <div class="site-footer-inner">
+		<footer class="site-footer">
+			<div class="container">
+				<div class="site-footer-inner">
 					<div class="site-footer-top">
 						<div class="site-footer-unit">
 							<div class="site-footer-unit-inner">
@@ -285,21 +331,23 @@
 										<a href="https://twitter.com/theEternityApp" rel="noopener noreferrer" target="_blank">
 											<span class="screen-reader-text">Twitter</span>
 											<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-												<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
+												<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
+												 fill="#FFF" />
 											</svg>
 										</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-					<div class="site-footer-bottom">
-						<div class="footer-copyright">&copy; 2019 Progress Dashboard, all rights reserved</div>
+						<div class="site-footer-bottom">
+							<div class="footer-copyright">&copy; 2019 Progress Dashboard, all rights reserved</div>
+						</div>
 					</div>
 				</div>
-            </div>
-        </footer>
-    </div>
+		</footer>
+	</div>
 
-    <script src="dist/js/main.min.js"></script>
+	<script src="dist/js/main.min.js"></script>
 </body>
+
 </html>
